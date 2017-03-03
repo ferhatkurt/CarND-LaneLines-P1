@@ -15,22 +15,22 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/solidWhiteRight.jpg "solidWhiteRight.jpg"
+[image1]: ./test_images/solidWhiteRight.jpg "solidWhiteRight.jpg"
 [image2]: ./test_images_output/solidWhiteRight.jpg "solidWhiteRight.jpg"
 
-[image3]: ./examples/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
+[image3]: ./test_images/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
 [image4]: ./test_images_output/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
 
-[image5]: ./examples/solidYellowLeft.jpg "solidYellowLeft.jpg"
+[image5]: ./test_images/solidYellowLeft.jpg "solidYellowLeft.jpg"
 [image6]: ./test_images_output/solidYellowLeft.jpg "solidYellowLeft.jpg"
 
-[image7]: ./examples/solidWhiteCurve.jpg "solidWhiteCurve.jpg"
+[image7]: ./test_images/solidWhiteCurve.jpg "solidWhiteCurve.jpg"
 [image8]: ./test_images_output/solidWhiteCurve.jpg "solidWhiteCurve.jpg"
 
-[image9]: ./examples/solidYellowCurve.jpg "solidYellowCurve.jpg"
+[image9]: ./test_images/solidYellowCurve.jpg "solidYellowCurve.jpg"
 [image10]: ./test_images_output/solidYellowCurve.jpg "solidYellowCurve.jpg"
 
-[image11]: ./examples/solidYellowCurve2.jpg "solidYellowCurve2.jpg"
+[image11]: ./test_images/solidYellowCurve2.jpg "solidYellowCurve2.jpg"
 [image12]: ./test_images_output/solidYellowCurve2.jpg "solidYellowCurve2.jpg"
 
 
@@ -68,23 +68,23 @@ Pipeline draw lane lines on the test_images:
 ![alt text][image12]
 
 #Videos
-##Solid white lane on the right 
+##Solid white lane on the right - Click image to view video
 [![solidWhiteRight.mp4](https://img.youtube.com/vi/cJWOE5xjksg/0.jpg)](https://www.youtube.com/watch?v=cJWOE5xjksg)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=cJWOE5xjksg
-" target="_blank"><img src="http://img.youtube.com/vi/cJWOE5xjksg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+##Solid yellow lane on the left - Click image to view video
+[![solidYellowLeft.mp4](https://img.youtube.com/vi/BwbURCrdfFY/0.jpg)](https://www.youtube.com/watch?v=BwbURCrdfFY)
+
+##Chalenge - Click image to view video
+[![solidYellowLeft.mp4](https://img.youtube.com/vi/5AkYslRdBYE/0.jpg)](https://www.youtube.com/watch?v=5AkYslRdBYE)
 
 ###2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+Left lane line should be more stable.
 
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+I made lots of improvements like prufy() function and controlling changes of m and b values to prevent rample. There could be other improvements about more complicated lane lines.
 
 Another potential improvement could be to ...
