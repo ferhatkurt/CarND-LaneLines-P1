@@ -67,9 +67,13 @@ Pipeline draw lane lines on the test_images:
 ![alt text][image11]
 ![alt text][image12]
 
-###Video
-#Solid white lane on the right
+#Videos
+##Solid white lane on the right 
 [![solidWhiteRight.mp4](https://img.youtube.com/vi/cJWOE5xjksg/0.jpg)](https://www.youtube.com/watch?v=cJWOE5xjksg)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=cJWOE5xjksg
+" target="_blank"><img src="http://img.youtube.com/vi/cJWOE5xjksg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ###2. Identify potential shortcomings with your current pipeline
 
